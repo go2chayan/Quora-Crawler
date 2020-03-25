@@ -13,7 +13,7 @@ def crawlTopicHierarchy():
     file_topic_urls = open("topic_urls.txt", mode = 'wb')
 
     # Starting node link
-    url = 'https://bn.quora.com/Preventive-Medicine?share=1'
+    url = 'https://bn.quora.com'
 
     depth = 0
     topic_names_hierarchy = ""
